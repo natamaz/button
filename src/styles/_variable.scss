@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	color: #fff;
+}
+body {
+	position: relative;
+	margin: auto;
+	font-family: 'ProximaNova', 'Arial', sans-serif;
+	font-size: 14px;
+	line-height: 1.6;
+	color: #fff;
+	font-style: normal;
+	letter-spacing: normal;
+	overflow-x: hidden;
+	font-weight: 400;
+}
+:before, :after {
+	box-sizing: border-box;
+}
+a {
+
+	transition: 0.5s;
+
+}
+input {
+	outline: none;
+}
+
+img, svg, video {
+	max-width: 100%;
+	height: auto;
+}
+button {
+	cursor: pointer;
+}
+picture {
+	display: block;
+}
+
+iframe {
+	max-width: 100%;
+}
+
