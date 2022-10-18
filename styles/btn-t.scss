@@ -1,0 +1,35 @@
+//btn
+.section{
+  height: 100vh;
+  position: relative;
+  background-color: #282828;
+}
+.btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border-radius: 0.6em;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  line-height: 1;
+  padding: 2.2em 6.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 1.5s;
+  font-weight: 700;
+  font-size: 1.5em;
+  border:5px solid #240090;
+  color: #240090;
+  transition: box-shadow 300ms ease-in, color 300ms ease-in;
+  &:hover{
+    box-shadow: 0 0 40px 40px #240090 inset;
+    color: #fff;
+    border: none;
+  }
+}

@@ -1,0 +1,58 @@
+@import 'variable';
+@import 'fonts';
+//@import "fontello";
+@import 'slick';
+@import 'header';
+@import 'footer';
+@import 'normalize';
+@import 'home';
+@import 'btn';
+@import 'btn-t';
+::-webkit-scrollbar { /* chrome based */
+  width: 0px;  /* ширина scrollbar'a */
+  background: transparent;  /* опционально */
+}
+.section{
+  position: relative;
+}
+.container {
+  width: 100%;
+  //max-width: 1050px;
+  margin: 0 auto;
+  padding: 0 35px;
+
+}
+.wrapper{
+  background: #000000;
+
+  position: relative;
+
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+
+@media (min-width: 768px) {
+  //.container {
+  //  max-width: 648px;
+  //}
+}
+@media (min-width: 1024px) {
+  //.container {
+  //  max-width: 864px;
+  //}
+}
+@media (min-width: 1280px){
+  //.container{
+  //  max-width: 1080px;
+  //}
+}
+@media (min-width: 1440px) {
+  //.container{
+  //  max-width: 1164px;
+  //}
+}
